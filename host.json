@@ -6,7 +6,11 @@
         "isEnabled": true,
         "excludedTypes": "Request"
       }
-    }
+    },
+    "logLevel": {
+            "Function.ListVMsInPools": "Debug",
+            "default": "Trace"
+        }
   },
   "extensionBundle": {
     "id": "Microsoft.Azure.Functions.ExtensionBundle",
