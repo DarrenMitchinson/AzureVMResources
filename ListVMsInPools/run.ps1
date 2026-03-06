@@ -1,6 +1,6 @@
 # Input bindings are passed in via param block.
-$resourceGroups = @("IRRICT-IXC-P-EM20-WVDCoreServices-RGRP", "IRRICT-IXC-R-EM21-WVDCoreServices-RGRP", "IRRICT-IXC-t-EM20-WVDCoreServices-RGRP");
-$subscriptionID = "f0c15a2d-54ee-498c-a2e6-8b8a0e26eabb";
+$resourceGroups = $env:ResourceGroups -split ","
+$subscriptionID = $env:SubscriptionId
 # Get the current universal time in the default string format
 $currentUTCtime = (Get-Date).ToUniversalTime()
 $version = $PSVersionTable

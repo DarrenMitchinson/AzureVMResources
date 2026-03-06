@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME_VERSION": "7.4",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "SubscriptionId": "f0c15a2d-54ee-498c-a2e6-8b8a0e26eabb",
+    "ResourceGroups": "IRRICT-IXC-P-EM20-WVDCoreServices-RGRP,IRRICT-IXC-R-EM21-WVDCoreServices-RGRP,IRRICT-IXC-t-EM20-WVDCoreServices-RGRP"
+  }
+}
